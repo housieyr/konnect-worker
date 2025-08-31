@@ -1,1 +1,12 @@
+name = "konnect-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# نبدأ بالـSandbox للتجارب
+[vars]
+KONNECT_BASE = "https://api.sandbox.konnect.network/api/v2"
+# لن نضع مفاتيح حسّاسة هنا. سنمرّر:
+# - KONNECT_API_KEY (سر)
+# - KONNECT_WALLET_ID (سر)
+# من خلال GitHub Actions أثناء النشر.
 
